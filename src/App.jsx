@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [status, setStatus] = useState(null);
@@ -12,10 +13,9 @@ export default function App() {
 
   return (
     <div className="bg-gray-950 text-white min-h-screen">
-      {/* HEADER */}
+
       <Header />
 
-      {/* GLOBAL FIXED NOTIFICATION */}
       {status && (
         <div
           className={`fixed top-20 z-60 left-1/2 -translate-x-1/2 z-50
@@ -33,7 +33,6 @@ export default function App() {
         </div>
       )}
 
-      {/* MAIN CONTENT */}
       <main className="pt-20 space-y-24">
         <About />
         <Skills />
@@ -41,8 +40,8 @@ export default function App() {
         <Contact setStatus={setStatus} />
       </main>
 
-      {/* FOOTER */}
       <Footer />
+      <Analytics />
     </div>
   );
 }

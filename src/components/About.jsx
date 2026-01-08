@@ -6,7 +6,7 @@ export default function About() {
       </h2>
 
       <div className="grid md:grid-cols-2 gap-12 items-start">
-        {/* LEFT – TEXT */}
+        
         <div className="space-y-6 text-gray-400 leading-relaxed">
           <p>
             I’m <span className="text-white font-medium">Pratham Tamrakar</span>,
@@ -29,7 +29,7 @@ export default function About() {
             and software development best practices.
           </p>
 
-          {/* EDUCATION */}
+          
           <div className="pt-4">
             <h4 className="text-white font-semibold mb-2">
               Education
@@ -43,7 +43,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* RIGHT – HIGHLIGHTS */}
+        
         <div className="bg-gray-900 border border-gray-800 rounded-2xl p-8 space-y-6">
           <h3 className="text-xl font-semibold text-white">
             What I Do

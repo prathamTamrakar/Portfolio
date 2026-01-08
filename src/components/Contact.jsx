@@ -1,11 +1,10 @@
 import { Github, Linkedin, Twitter, CodeIcon } from 'lucide-react';
-import { useRef} from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser"
 
 
 export default function Contact({ setStatus }) {
   const formRef = useRef();
-  // status = "success" | "error"
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -41,7 +40,7 @@ export default function Contact({ setStatus }) {
       </p>
 
       <div className="grid md:grid-cols-2 gap-12">
-        {/* LEFT – CONTACT INFO */}
+        
         <div className="bg-gray-900 border border-gray-800 rounded-2xl p-8 space-y-6">
           <h3 className="text-xl font-semibold text-white">
             Let’s Connect
@@ -64,7 +63,7 @@ export default function Contact({ setStatus }) {
             </div>
           </div>
 
-          {/* SOCIAL LINKS */}
+          
           <div className="pt-4">
             <h4 className="text-white font-medium mb-4">
               Connect With Me
@@ -118,7 +117,7 @@ export default function Contact({ setStatus }) {
           </div>
         </div>
 
-        {/* RIGHT – FORM */}
+      
         <form
           ref={formRef}
           onSubmit={sendEmail}

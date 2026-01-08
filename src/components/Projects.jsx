@@ -55,7 +55,6 @@ export default function Projects() {
               {project.description}
             </p>
 
-            {/* Tech Stack */}
             <div className="flex flex-wrap gap-2 mb-6">
               {project.tech.map((tech, i) => (
                 <span
@@ -67,7 +66,6 @@ export default function Projects() {
               ))}
             </div>
 
-            {/* Buttons */}
             <div className="flex gap-4">
               <a
                 href={project.github}

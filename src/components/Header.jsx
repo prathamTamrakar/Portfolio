@@ -5,7 +5,7 @@ export default function Header() {
 
   return (
     <header className="relative">
-      {/* NAVBAR */}
+
       <div className="fixed top-0 w-full z-50 bg-gray-900/80 backdrop-blur border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <h1 className="text-xl font-semibold text-indigo-400">
@@ -13,7 +13,6 @@ export default function Header() {
             <span className="text-gray-400">.dev</span>
           </h1>
 
-          {/* DESKTOP NAV */}
           <nav className="hidden md:flex gap-8 text-sm font-medium text-gray-300">
             <a href="#about" className="hover:text-white">About</a>
             <a href="#skills" className="hover:text-white">Skills</a>
@@ -21,7 +20,6 @@ export default function Header() {
             <a href="#contact" className="hover:text-white">Contact</a>
           </nav>
 
-          {/* MOBILE MENU BUTTON */}
           <button
             onClick={() => setOpen(!open)}
             className="md:hidden text-gray-300 text-2xl"
@@ -30,7 +28,6 @@ export default function Header() {
           </button>
         </div>
 
-        {/* MOBILE MENU */}
         {open && (
           <div className="md:hidden bg-gray-900 border-t border-gray-800">
             <nav className="flex flex-col px-6 py-4 gap-4 text-gray-300">
@@ -43,11 +40,9 @@ export default function Header() {
         )}
       </div>
 
-      {/* HERO SECTION */}
       <section className="pt-32 pb-24 bg-linear-to-b from-gray-950 to-gray-900">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-          {/* LEFT */}
           <div>
             <p className="text-indigo-400 font-medium mb-4">
               👋 Hi, I’m Pratham Tamrakar
@@ -83,7 +78,6 @@ export default function Header() {
               </a>
             </div>
 
-            {/* TECH TAGS */}
             <div className="flex flex-wrap gap-3 mt-8 text-sm">
               {[
                 "React",
@@ -103,7 +97,6 @@ export default function Header() {
             </div>
           </div>
 
-          {/* RIGHT */}
           <div className="hidden md:flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-indigo-500/20 blur-2xl"></div>
