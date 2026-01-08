@@ -75,7 +75,7 @@ export default function Header() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="/PrathamTamrakarResume.pdf"
                 target="_blank"
                 className="border border-gray-700 hover:border-indigo-400 transition px-6 py-3 rounded-lg font-medium"
               >
