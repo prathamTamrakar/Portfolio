@@ -21,7 +21,7 @@ const projects = [
       "A web-based mental health support system offering self-help resources, mood tracking, and guided support features.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/prathamTamrakar/NeuroSaathi-frontend",
-    live: "https://neuro-saathi.vercel.app/",
+    live: "https://neuro-saathi-frontend-eta.vercel.app/",
   },
   {
     title: "Task Management App",
@@ -29,7 +29,7 @@ const projects = [
       "A task management application to create, organize, and track tasks with user authentication and status updates.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/prathamTamrakar/task-management-app",
-    live: "https://task-management-app.vercel.app",
+    live: "https://taskflow-tau-three.vercel.app",
   },
 ];
 

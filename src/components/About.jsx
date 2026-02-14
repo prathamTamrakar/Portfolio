@@ -10,7 +10,7 @@ export default function About() {
         <div className="space-y-6 text-gray-400 leading-relaxed">
           <p>
             I’m <span className="text-white font-medium">Pratham Tamrakar</span>,
-            a passionate <span className="text-indigo-400">Full-Stack Developer</span>
+            a passionate <span className="text-indigo-400">Full-Stack Developer </span>
             who enjoys building practical web applications and turning ideas into
             working products.
           </p>
